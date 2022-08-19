@@ -1,0 +1,20 @@
+const sequelize = require('sequelize')
+const Sequelize = require('sequelize')
+const database = require('./db')
+
+const Produto = database.define('produto', {
+    id: {
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        allowNull: false,
+        primaryKey: true
+    },
+    nome: {
+        type: Sequelize.STRING(150),
+        allowNull: false
+    },
+    preco: Sequelize.DECIMAL,
+    descricao: Sequelize.STRING(300)
+})
+
+module.exports = Produto
