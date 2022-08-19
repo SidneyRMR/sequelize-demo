@@ -19,7 +19,7 @@ const database = require('./db')
 // })
 
 // Original
-const Produto = database.define('produto', {
+const Pastel = database.define('tb_pastel', {
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
@@ -27,11 +27,11 @@ const Produto = database.define('produto', {
         primaryKey: true
     },
     nome: {
-        type: Sequelize.STRING(150),
+        type: Sequelize.STRING(50),
         allowNull: false
     },
-    preco: Sequelize.DECIMAL,
+    preco: Sequelize.FLOAT(2),
     descricao: Sequelize.STRING(300)
 })
 
-module.exports = Produto
+module.exports = Pastel

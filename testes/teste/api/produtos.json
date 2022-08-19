@@ -1,0 +1,16 @@
+[
+    {"cod": "1",  "desc": "Abacate"},
+    {"cod": "2",  "desc": "Abóbora Paulista"},
+    {"cod": "3",  "desc": "Cambocha"},
+    {"cod": "4",  "desc": "Laranja Graúda"},
+    {"cod": "5",  "desc": "Laranja Média"},
+    {"cod": "6",  "desc": "Lima da Pérsia"},
+    {"cod": "7",  "desc": "Limão Cravo"},
+    {"cod": "8",  "desc": "Limão Galego"},
+    {"cod": "9",  "desc": "Limão Tahiti Bom"},
+    {"cod": "10", "desc": "Limão Tahiti Enf"},
+    {"cod": "11", "desc": "Limão Tahiti Peq"},
+    {"cod": "12", "desc":"Limão Siciliano"},
+    {"cod": "13", "desc":"Maracujá"},
+    {"cod": "14", "desc":"Moranga"}
+]

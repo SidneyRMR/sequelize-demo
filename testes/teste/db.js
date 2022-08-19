@@ -1,7 +1,7 @@
 //instalar bibliotecas necessarias npm i sequelize mysql2
 
 const Sequelize = require('sequelize')
-const sequelize = new Sequelize('teste_node', 'root', '', {
+const sequelize = new Sequelize('db_citrce', 'root', '', {
     host: "localhost",
     dialect: "mysql",
     port: 3306
